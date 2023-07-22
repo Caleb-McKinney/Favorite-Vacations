@@ -3,23 +3,29 @@
 
 // string
 let greeting = "Welcome to Galway";
-
-// boolean
-// truth or false
-let trueBoolean = true;
-let falseBoolean = false;
-
 console.log(greeting);
 
-let favoriteVacation = prompt("where is your favorite vacation spot?");
-console.log(favoriteVacation);
+function displayUsername(){
+  let username = prompt("What is your name?");
+  document.write(username)
+}
+
+function displayLocation(){
+  let favoriteVacation = prompt("Where is your favorite vacation spot?");
+  console.log(favoriteVacation)
+  document.write(favoriteVacation)
+  // document.write(favoriteVacation)
+}
+//The line below this can put user input on html page
+// document.write(displayLocation())
+// console.log(favoriteVacation);
 
 
 // if(this equals true){then do this}
-if (favoriteVacation == "Galway") {
-  alert("That's cool!");
-} else if (favoriteVacation == "Asheville") {
-  alert("Good Enough");
-} else {
-  alert("Wrong answer " + favoriteVacation);
-}
+// if (favoriteVacation == "Galway") {
+//   alert("That's cool!");
+// } else if (favoriteVacation == "Asheville") {
+//   alert("Good Enough");
+// } else {
+//   alert("Wrong answer " + favoriteVacation);
+// }
